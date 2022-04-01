@@ -18,6 +18,7 @@ module.exports = {
       blue: colors.lightBlue,
       red: colors.rose,
       pink: colors.fuchsia,
+      white: colors.white,
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -30,7 +31,10 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
-      }
+      },
+      fontFamily: {
+        'nothing': ['Nothing You Could Do', 'cursive']
+      },
     }
   },
   variants: {

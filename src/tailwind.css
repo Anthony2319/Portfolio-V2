@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  h2 {
-    @apply text-blue-800 text-xl my-3
+  body {
+    font-family: 'Nothing You Could Do', cursive;
   }
   p {
-    @apply text-gray-800 text-sm
+    @apply text-white text-sm
   }
+  
 }
 
 @layer components {
